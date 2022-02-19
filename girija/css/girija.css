@@ -1,0 +1,91 @@
+/** HEADER **/
+#header-nav {
+    /* background-color: #f6b319; */
+    background-color: #f9f0db;
+    border-radius: 0;
+    border: 0;
+  }
+  
+  #logo-img {
+    background: url('../images/girija-logo_150x150.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+    border-radius: 40px;
+  }
+  #nav-list a:hover{
+    background-color: #951C49;
+    color: #f9f0db;
+  }
+  li.active1, li.active1 span, li.active1 a {
+    background-color: #951C49;
+    color: #f9f0db!important;
+  }
+  #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+  }
+  .small-font{
+    font-size: .8em;
+  }
+  #menu-tile {
+    background: url('../images/class-tile21.jpg') no-repeat;
+    background-position: center;
+  }
+  #specials-tile {
+    background: url('../images/consert-tile21.jpg') no-repeat;
+    background-position: center;
+  }
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f9f0db;
+    color: #951C49;
+  }
+  /* desc details 
+  .menu-item-description{
+    background-color: #f9f0db;
+    color: #951C49;
+   
+    margin: 0 10px;
+  } */
+  /********** Large devices only **********/
+@media (min-width: 1200px) {
+    .container .jumbotron {
+      background: url('../images/home_1200.jpg') no-repeat;
+      height: 675px;
+    }
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+    /* Header */
+    #logo-img {
+      background: url('../images/girija-logo_100x100.png') no-repeat;
+      width: 100px;
+      height: 100px;
+      margin: 5px 5px 5px 0;
+      border-radius: 40px;
+    }
+    /* End Header */
+  
+    /* Home Page */
+    .container .jumbotron {
+      background: url('../images/home_992.jpg') no-repeat;
+      height: 558px;
+    }
+    /* End Home Page */
+  }
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Home Page */
+    .container .jumbotron {
+      background: url('../images/home_768.jpg') no-repeat;
+      height: 432px;
+    }
+    /* End Home Page */
+  
+  }
